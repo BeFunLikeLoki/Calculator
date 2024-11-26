@@ -1,0 +1,144 @@
+*{background-color: #05A6A6;}
+
+
+/*Calculator CSS*/
+
+.logo {
+ width: 20%;
+ margin: 50px;
+}
+
+img {
+ width: 100%;
+}
+
+h1 {
+ text-align: center;
+ font-family: "Protest Guerrilla", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+#calculator {
+ display: flex;
+ flex-direction: column;
+ width: 280px;
+ height: 360px;
+ margin: auto;
+ background-color: darkgray;
+ border: solid 6px #000;
+ padding-top: 10px;}
+
+
+#screen {background-color: gray;
+ height: 50%;
+ width: 90%;
+ margin: 10px auto;
+ font-size: 2rem;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+  }
+
+#numbers {
+ display: flex;
+ flex-wrap: wrap;
+ background-color: darkgray;
+}
+
+.number {
+ background-color: yellow;
+ width: 60px;
+ height: 60px;
+ margin: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+ font-weight: bold;
+ box-shadow: 3px 3px #888888;
+font-family: "Protest Guerrilla", system-ui; 
+font-style: normal;
+}
+
+.operator {
+ background-color: blue;
+ width: 60px;
+ height: 60px;
+ margin: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+ font-weight: bold;
+ box-shadow: 3px 3px #888888;
+font-family: "Protest Guerrilla", system-ui; 
+font-style: normal;
+margin-bottom: 5px;
+}
+
+.number:active {
+ box-shadow: 0px 0px;
+}
+
+#buttons
+ {display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+ }
+ 
+
+#operators 
+{display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: darkgray;
+}
+
+.operators:active {
+ box-shadow: 0px 0px;
+ background-color: blue;
+}
+
+
+#clear {background-color: orange;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow: 3px 3px #888888; 
+        font-family: "Protest Guerrilla", system-ui; 
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+}
+
+#equals {background-color: blue;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow: 3px 3px #888888; 
+        font-family: "Protest Guerrilla", system-ui; 
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+}
+
+#multiply {background-color: orange;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow: 3px 3px #888888; 
+        font-family: "Protest Guerrilla", system-ui; 
+        font-style: normal;
+        justify-content: center;
+        align-items: center}
